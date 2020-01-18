@@ -22,14 +22,13 @@
 	</servlet-class>
 	  <init-param>
 	    <param-name>com.sun.jersey.config.property.packages</param-name>
-	    <param-value>org.itstep.
-	    controller</param-value>
+	    <param-value>org.itstep.controller</param-value>
 	  </init-param>
 	  <load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
 	  <servlet-name>Jersey REST Service</servlet-name>
-	  <url-pattern>/aluguelRest/*</url-pattern>
+	  <url-pattern>/revisaoRest/*</url-pattern>
 	</servlet-mapping>
 
 </web-app>
